@@ -302,7 +302,8 @@ span.footer-logo-span {
   border-radius: 50%;
   background-color: var(--accent-color);
 }
-.team-socials-item:hover {
+.team-socials-item:hover,
+.team-socials-item:focus {
   background-color: var(--color-ocean);
 }
 .team-socials-link {
@@ -397,7 +398,8 @@ span.footer-logo-span {
   display: block;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.examples-list-link:hover {
+.examples-list-link:hover,
+.examples-list-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -461,7 +463,8 @@ span.footer-logo-span {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.footer-socials-item:hover {
+.footer-socials-item:hover,
+.footer-socials-item:focus {
   background-color: #31d0aa;
 }
 .footer-socials-link {
