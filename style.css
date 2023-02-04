@@ -350,6 +350,13 @@ span.footer-logo-span {
 .customers-icon {
   fill: #afb1b8;
 }
+.customers-item-link:hover .customers-icon {
+  fill: var(--color-ocean);
+}
+.customers-item-link:hover,
+.customers-item-link:focus {
+  border-color: var(--color-ocean);
+}
 
 /* ------portfolio.html------- */
 .main-page {
